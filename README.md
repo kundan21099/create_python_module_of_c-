@@ -12,8 +12,8 @@
 
 Above image shows the the structure.
 
-- **build:** This folder is used to create the object files. (used in g++ commands)
-- **python_implementation:** In this folder the dynamic python module will be created based on commands. 
+- **build:** I am using this folder to create and store the object files. (used in g++ commands)
+- **python_implementation:** This folder consist of dynamic python module, pybind11.cpp. I am using this location in commands to create pyd module.
 
 ***How to execute?***
 
@@ -22,6 +22,7 @@ Above image shows the the structure.
 **2. Install pybind11 library in an python venv**
 
 **3. Activate venv**
+- Get the pybind11 paths by running the **get_pybind11_paths.py** from python_implementation folder.
 
 **4. Add respective paths and file anmes in build_pyd_automate.bat**
 
